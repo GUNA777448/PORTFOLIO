@@ -83,7 +83,7 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 0.7 }}
         >
           <img
-            src="src/assets/hero.jpg"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgXGyeoJMmc7oZIGlx-cMSqSF9_V3D5cEoh4HIBfseijSEgQTDIzqtzIO52tyrwKEIe0RVYwptA3Tzz5rWWdI5q5pfH23b88mRHdg54y3GO40ZuGOQyZX_39ULvxp9Y2rYGw-dSU65N2FPWBeQSgBTMEcG4Jl0sWkVlRbEbgvjPKHgQpKnZmi89bUXJx8/s320/PROFILE%20.jpg"
             alt="Portrait of Gurunada Rao"
             className="w-48 sm:w-56 md:w-64 lg:w-72 xl:w-80 rounded-full shadow-lg object-cover"
           />
