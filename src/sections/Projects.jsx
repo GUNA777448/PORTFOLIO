@@ -9,14 +9,7 @@ const projects = [
     img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFU1wrMmUqiDfqCLCwoIi87VSKnR7KxrTmWBaP8NU76VfoLgcrFpFmYzZmCi_0i1wKp1e3mIBwvtWvWBeAdLYAtNo-bNKI3NmK4x6Itky-noRWw8TYZm4NnezxEgTTuYw9hpoEZ25Bo9rnY2geS12YWFUH-V3MuAEKqoUo8n4VZGQydai5YT_Ei9kIW3E/s320/Sophisticated%20Restaurant%20Logo%20-%20Letter%20'D'.png", // replace with your own screenshot
     link: "https://r-fr.vercel.app/",
   },
-  {
-    title: "Grammar Corrector App",
-    description:
-      "Fix grammar errors like a boss using AI. Real-time grammar correction with OpenAI API.",
-    tech: "React, Node.js, Express, OpenAI API",
-    img: "https://www.euroschoolindia.com/blogs/wp-content/uploads/2023/06/teaching-grammar-to-kids.jpg", // replace with your own screenshot
-    link: "https://your-grammar-app-link.com",
-  },
+ 
   {
     title: "Starbucks Clone (Starbevs)",
     description:
