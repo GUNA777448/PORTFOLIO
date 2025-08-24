@@ -104,9 +104,13 @@ export default function About() {
             🏆 Achievements
           </h3>
           <ul className="list-disc list-inside space-y-2">
+             <li>
+              🥈 <strong>2nd Place at StartUp-Utsav</strong> Built an
+              smart irrigation system.
+            </li>
             <li>
-              🥈 <strong>2nd Place at Hackodessy 1.0:</strong> Built an Smart
-              Gas detection and Fire accidents prevention System
+              🥈 <strong>2nd Place at Hackodessy 1.0:</strong> Built a smart
+              gas detection and fire accidents prevention system.
             </li>
             <li>
               🚀 <strong>3rd Place at FAILATOHN 2K24</strong> Smart Shopping

@@ -23,8 +23,7 @@ export default function Hero() {
             />
             <br className="hidden md:inline" />
           </motion.h1>
-
-          {/* Typing Animation */}
+      
           <TypeAnimation
             sequence={[
               "Frontend Developer 💻",
@@ -35,13 +34,14 @@ export default function Hero() {
               2000,
               "Tech Enthusiast 🚀",
               2000,
+              "Flutter Learner 📱",
+              2000,
             ]}
             wrapper="span"
             speed={50}
             className="block text-lg sm:text-xl md:text-2xl text-indigo-600 dark:text-indigo-400 font-semibold mb-6"
             repeat={Infinity}
           />
-
           <motion.p
             className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8"
             initial={{ opacity: 0 }}

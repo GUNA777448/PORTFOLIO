@@ -6,6 +6,7 @@ import Projects from "./sections/Projects";
 import Hero from "./sections/Hero";
 import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
+import Achievements from "./sections/Achievements";
 
 // You can define Home here for now or import it from a file later
 function Home() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/achievements" element={<Achievements />} />
         {/* Add more routes as needed */}
       </Routes>
     </>

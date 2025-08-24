@@ -70,10 +70,9 @@ export default function Navbar() {
           {navItem("About", "/about")}
           {navItem("Skills", "/skills")}
           {navItem("Projects", "/projects")}
+          {navItem("Achievements", "/achievements")}
           {navItem("Contact", "/contact")}
         </div>
-
-        {/* Mobile Menu Icon */}
         <button
           className="md:hidden text-gray-700 dark:text-white"
           onClick={() => setIsOpen(!isOpen)}
@@ -102,8 +101,6 @@ export default function Navbar() {
           </svg>
         </button>
       </div>
-
-      {/* Mobile Dropdown */}
       {isOpen && (
         <motion.div
           initial={{ opacity: 0, y: -10 }}
@@ -131,6 +128,13 @@ export default function Navbar() {
             className="block py-2 text-gray-700 dark:text-white hover:text-indigo-600 font-medium"
           >
             Projects
+          </Link>
+          <Link
+            to="/achievements"
+            onClick={() => setIsOpen(false)}
+            className="block py-2 text-gray-700 dark:text-white hover:text-indigo-600 font-medium"
+          >
+            Achievements
           </Link>
           <Link
             to="/contact"
