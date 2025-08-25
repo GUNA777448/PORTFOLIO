@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Delcial! - Pre Reservation App",
+    title: "Grammar Corrector App",
     description:
       "Book your table before you arrive! A pre-reservation app for restaurants.",
     tech: "React , Node , Express, MongoDB, TailwindCSS",
