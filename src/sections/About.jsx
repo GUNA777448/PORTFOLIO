@@ -54,7 +54,19 @@ export default function About() {
 
           <p>
             🧠 <strong>Stack:</strong> JavaScript, Python, Node.js, Bootstrap,
-            Figma, Arduino, Framer Motion. Forever in glow-up mode.
+            Figma, Arduino, Framer Motion,{" "}
+            <span className="font-semibold text-blue-400">Flutter</span>.
+            Forever in glow-up mode.
+          </p>
+          <p>
+            📱 <strong>Flutter Development:</strong> Currently building
+            cross-platform mobile apps with Flutter and Dart, focusing on
+            beautiful UI and smooth user experience.
+          </p>
+          <p>
+            🌾 <strong>Sprout Building:</strong> Architecting and developing
+            Sprout, an end-to-end AI-powered Agri-Tech platform for farmers,
+            integrating crop management, smart irrigation, and market analytics.
           </p>
 
           <p>
@@ -104,13 +116,13 @@ export default function About() {
             🏆 Achievements
           </h3>
           <ul className="list-disc list-inside space-y-2">
-             <li>
-              🥈 <strong>2nd Place at StartUp-Utsav</strong> Built an
-              smart irrigation system.
+            <li>
+              🥈 <strong>2nd Place at StartUp-Utsav</strong> Built an smart
+              irrigation system.
             </li>
             <li>
-              🥈 <strong>2nd Place at Hackodessy 1.0:</strong> Built a smart
-              gas detection and fire accidents prevention system.
+              🥈 <strong>2nd Place at Hackodessy 1.0:</strong> Built a smart gas
+              detection and fire accidents prevention system.
             </li>
             <li>
               🚀 <strong>3rd Place at FAILATOHN 2K24</strong> Smart Shopping

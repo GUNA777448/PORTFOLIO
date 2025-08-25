@@ -2,7 +2,16 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Grammar Corrector App",
+    title: "Sprout - Agri-Tech AI Farm Solution (In Progress)",
+    description:
+      "Sprout is an end-to-end AI-powered platform for modern farms. It integrates crop management, weather insights, smart irrigation, and market analytics into a single, easy-to-use solution for farmers.",
+    tech: "React, Node.js, MongoDB, AI, IoT, Flutter (mobile)",
+    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheKrXeDsKk8aAaQ8WtRTmT0T2kMjPid7YyCdr1P-cz3h1eruLTeOrLp2YMgueI1oiICpTq2oma7_2arEp5k_xBguvQ2PvlMibdcVBRfroRe1PuZ2-WLs0nnx2WS6icotJUReDJtmyqgO-lZD8beeQhOkxDC-ULaKRW0EWUFbEDZ1U3HtJEpuFwor1XswU/s320/SPROUT-ICON.jpg", // replace with your own image
+    link: "https://sproutagritrust.vercel.app/", // update with your app link when ready
+    status: "In Progress",
+  },
+  {
+    title: "Delcial - An Restaurant Reservation App",
     description:
       "Book your table before you arrive! A pre-reservation app for restaurants.",
     tech: "React , Node , Express, MongoDB, TailwindCSS",
