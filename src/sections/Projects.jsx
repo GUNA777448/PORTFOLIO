@@ -20,7 +20,7 @@ const projects = [
   },
  
   {
-    title: "Starbucks Clone (Starbevs)",
+    title: "Starbucks Clone (Starbevs))",
     description:
       "Starbucks, but make it custom ☕. A slick clone with responsive UI and animations.",
     tech: "React, TailwindCSS, Firebase",
