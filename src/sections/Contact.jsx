@@ -1,32 +1,30 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import emailjs from "emailjs-com";
 
 export default function Contact() {
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_2ad6ems", // Replace with your service ID
-        "template_7wjv2df", // Replace with your template ID
-        form.current,
-        "GoYfi4cDHOluL8m7l" // Replace with your public key
-      )
-      .then(
-        (result) => {
-          console.log("Message sent ✅", result.text);
-          alert("Message sent! I'll get back to you soon.");
-          form.current.reset();
-        },
-        (error) => {
-          console.error("Message failed ❌", error.text);
-          alert("Oops, something went wrong. Try again later.");
-        }
-      );
-  };
+  const res = await fetch("https://script.google.com/macros/s/AKfycbynpAcGeqk71bTzBjmoVy-r8SmJbJZIaHSMBfRJib1M5mGqXViuUK_yD-wuw4M9zwj9/exec", {
+    method: "POST",
+    body: JSON.stringify({
+      name: form.current.name.value,
+      email: form.current.email.value,
+      message: form.current.message.value,
+    }),
+  });
+
+  const data = await res.json();
+  if (data.success) {c
+    alert("Message sent ✅ I'll get back to you soon.");
+    form.current.reset();
+  } else {
+    alert("Oops, something went wrong ❌ Try again later.");
+  }
+};
+
 
   return (
     <section
@@ -54,7 +52,7 @@ export default function Contact() {
 
         <motion.form
           ref={form}
-          onSubmit={sendEmail}
+          onSubmit={handleSubmit}
           className="grid grid-cols-1 gap-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
